@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<div id="principal">
+
+		<div id="cabezera">
+		<p>
+			<h2>BIENVENIDO(A)</h2>
+		</p>
+		<p id="sesion">
+			<input type="submit" name="cerrarSesion" value="Cerrar Sesion" onclick="location.href='inicioSesion.html'">
+		</p>
+		<p>
+			<img id="uas" src="uas.jpg">
+		</p>
+		<p id="txt1">
+			<label>Universidad Autonoma de Sinaloa</label>
+		</p>
+		<p id="txt2">
+			<label>Facultad de Informatica Culiacan</label>
+		</p>
+		<p>
+			<img id="fic" src="fic.jpg">
+		</p>
+
+		</div>
+
+		<div id="consultas">
+			<p>
+				<input type="submit" name="solicitudes" id="tam" value="Solicitudes" onclick="location.href='solicitudes.html'">
+			</p>
+			<p>
+				<input type="submit" name="consultaDatos" id="tam" value="Consulta Datos Alumnos" onclick="location.href='consultaDatos.html'">
+			</p>
+			<p>
+				<input type="submit" name="tablaCreditos" id="tam" value="TablaCreditos" onclick="location.href='tablaCreditos.html'">
+			</p>
+			
+		</div>
+
+		<div>
+			<table>
+				<tr>
+					<td>Clave</td>
+					<td>Nombre</td>
+					<td>Descripcion</td>
+					<td>Valor Unitario</td>
+					<td>Valor Maximo</td>
+					<td>Opciones</td>
+				</tr>
+				<tr>
+					<td id="am"></td>
+					<td id="am"></td>
+					<td id="am"></td>
+					<td id="am"></td>
+					<td id="am"></td>
+					<td id="am"></td>
+				</tr>
+
+			</table>
+			<input type="submit" name="agregarIndicador" value="Agregar Indicador +" id="indicador" onclick="location.href='agregarIndicador.html'">
+		</div>
+
+	</div>
+
+</body>
+</html>
