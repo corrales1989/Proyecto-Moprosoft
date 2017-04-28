@@ -1,0 +1,332 @@
+div #inicioSesion{
+	width: 350px;
+	height: 300px;
+	border:5px solid black;
+	position: absolute;
+	left: 500px;
+	top: 100px;
+}
+#frmInicioSesion{
+	position: absolute;
+	left: 95px;
+	top: 50px;
+}
+#texto{
+	position: absolute;
+	left: 75px;
+	bottom: 230px;
+}
+#ingresar{
+	display: inline-block;
+}
+#principal{
+	border:3px solid black;
+	width: 1320px;
+	height: 1000px;
+	background:#DEE1E2;
+}
+#cabezera{
+	width: 1320px;
+	height: 150px;
+	background-color: white;
+}
+#sesion{
+	position: absolute;
+	right: 50px;
+	top: 15px;
+}
+#uas{
+	width: 100px;
+	height: 95px;
+	position: absolute;
+	left: 50px;
+	top: 65px;
+}
+#fic{
+	width: 130px;
+	height: 98px;
+	position: absolute;
+	right: 50px;
+	top: 62px;
+}
+#txt1{
+	color:blue;
+	position: absolute;
+	font-size: 2.5em;
+	left: 420px;
+	top: 20px;
+}
+#txt2{
+	color: blue;
+	position: absolute;
+	font-size: xx-large;
+	left: 490px;
+	top: 80px;
+}
+#consultas{
+	width: 350px;
+	height: 300px;
+}
+#tam{
+	width: 170px;
+	height: 39px;
+	position: relative;
+	left: 100px;
+	top: 50px;
+	background-color: gray;
+}
+table{
+	border-collapse: separate;
+	width: 800px;
+	border: black 2px solid;
+	font-size: 1.5em;
+	position: absolute;
+	left: 320px;
+	top: 200px;
+}
+td{
+	border:black 2px solid;
+}
+#am{
+	height: 400px;
+}
+#frmConsultaDatos{
+	background-color: gray;
+	width: 600px;
+	height: 430px;
+	border: black 2px solid;
+	position: absolute;
+	left: 320px;
+	top: 220px;
+}
+#txtBuscador{
+	width: 340px;
+	position: relative;
+	left: 40px;
+}
+#lblT{
+	position: relative;
+	left: 40px;
+}
+#buscar{
+	position: relative;
+	left: 60px;
+}
+#datosG{
+	position: absolute;
+	left: 40px;
+	width: 500px;
+	border: black 2px solid;
+
+}
+#apP{
+	position: relative;
+	left: 20px;
+}
+#apM{
+	position: relative;
+	left: 120px;
+}
+#txtApPaterno{
+	position:relative;
+	left: 20px;
+}
+#txtApMaterno{
+	position: relative;
+	left: 55px;
+}
+#nombre{
+	position: relative;
+	left: 20px;
+	width: 300px;
+}
+#lblNombre{
+	position: relative;
+	left: 20px;
+}
+#txt11{
+	position: relative;
+	left: 20px;
+	width: 150px;
+}
+#lbl11{
+	position: relative;
+	left: 20px;
+}
+#lbl22{
+	position: relative;
+	left: 150px;
+}
+#lbl222{
+	position: relative;
+	left: 80px;
+}
+#txt22{
+	position: relative;
+	left: 30px;
+	width: 100px;
+}
+#lbl33{
+	position: relative;
+	left: 220px;
+}
+#lbl333{
+	position: relative;
+	left: 180px;
+}
+#txt33{
+	position: relative;
+	left: 50px;
+	width: 100px;
+}
+#indicador{
+	position: relative;
+	left: 910px;
+	top: 170px;
+	width: 200px;
+	height: 50px;
+	font-size: 1em;
+}
+#frmAgregarIndicador{
+	width: 500px;
+	border: black 2px solid;
+	position: absolute;
+	left: 350px;
+	top: 200px;
+}
+#claveIndicador{
+	position: relative;
+	left: 20px;
+}
+#txtClaveIndicador{
+	position: relative;
+	left: 20px;
+	width: 100px;
+}
+#NombreIndicador{
+	position: relative;
+	left: 105px;
+}
+#txtNombreIndicador{
+	position: relative;
+	left: 100px;
+	width: 250px;
+}
+#lblDescripcion{
+	position: relative;
+	left: 20px;
+}
+#txtDescripcion{
+	position: relative;
+	left: 20px;
+	width: 400px;
+	height: 30px;
+}
+#lblValorU{
+	position: relative;
+	left: 20px;
+}
+#lblValorM{
+	position: relative;
+	left: 115px;
+}
+#txtValorU{
+	position: relative;
+	left: 20px;
+	width: 90px;
+}
+#txtValorM{
+	position: relative;
+	left: 115px;
+	width: 90px;
+}
+#aceptar{
+	position: relative;
+	left: 320px;
+}
+#cancelar{
+	position: relative;
+	left: 350px;
+}
+li {
+	display: inline-block;
+}
+li a {
+	text-decoration: none;
+	padding: 8px;
+	text-align: center;
+	color: black;
+	width:200px;
+	border:black 2px solid;
+	background-color: gray;
+	display: block;
+	position: relative;
+	left: 250px;
+}
+#biblioteca{
+	border-collapse: separate;
+	width: 800px;
+	border: black 2px solid;
+	font-size: 1em;
+	position: absolute;
+	right: 650px;
+	top: 50px;
+	
+}
+#biblioteca2{
+	height: 400px;
+}
+#frmAgregarEvidencia{
+	border:black 2px solid;
+	width: 400px;
+	position: absolute;
+	left: 400px;
+	top: 250px;
+}
+#btnNombreArchivo2{
+	position: relative;
+	left: 30px;
+}
+#txtNombreArchivo2{
+	position: relative;
+	left: 30px;
+}
+#btnEnviar{
+	position: relative;
+	right: 40px;
+	font-size: 1em;
+	width: 100px;
+}
+#btnCancelar{
+	position: relative;
+	left: 40px;
+	font-size: 1em;
+	width: 100px;
+}
+
+#imprimirArchivo{
+	height: 400px;
+}
+#impArchivo{
+	position: absolute;
+	top: 70px;
+	right: 1350px;
+}
+#btnDescarga{
+	position: absolute;
+	top: 602px;
+	left: 985px;
+	background-image: url('descarga.png');
+	background-repeat: no-repeat;
+	width: 35px;
+	height: 33px;
+}
+#btnImprimir{
+	position: absolute;
+	top: 600px;
+	left: 1050px;
+	background-image: url('imprimir.png');
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 35px;
+}
